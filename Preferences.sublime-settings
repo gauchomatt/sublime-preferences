@@ -1,5 +1,26 @@
 {
 	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		".venv/*",
+		"dist/*",
+		"node_modules/*",
+		".elasticbeanstalk/*",
+		".ebextensions/*",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
 	"bold_folder_labels": true,
 	"caret_extra_width": 2,
 	"color_scheme": "Packages/Theme - Primer/primer.dark.tmTheme",
@@ -27,25 +48,6 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-	"binary_file_patterns":
-	[
-		".venv/*",
-		"dist/*",
-		"node_modules/*",
-		"*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.gif",
-		"*.ttf",
-		"*.tga",
-		"*.dds",
-		"*.ico",
-		"*.eot",
-		"*.pdf",
-		"*.swf",
-		"*.jar",
-		"*.zip"
-	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -67,6 +69,7 @@
 	"line_padding_top": 3,
 	"overlay_scroll_bars": "enabled",
 	"preview_on_click": true,
+	"tab_size": 2,
 	"theme": "Primer Dark.sublime-theme",
 	"theme_primer_sidebar_font_large": false,
 	"theme_primer_sidebar_font_normal": true,
@@ -88,5 +91,6 @@
 	"theme_primer_tabs_font_xlarge": false,
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?_",
 	"word_wrap": true
 }
